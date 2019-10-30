@@ -34,3 +34,11 @@ This package was created by [Ali Najafi](https://github.com/a4fr) and is maintai
 
 ## License
 [MIT](LICENSE)
+
+## Added code on how I use it. Check in ocrspace2 folder
+Obtain images of subtitles and empty sub.srt timings with VideoSubFinder.
+
+Make a file.txt with all the .jpg filenames
+Put everything in one folder and start with command python ocrspace2.py
+
+After you have the extracted subtitle.txt, combine it with empty sub.srt with command python combine.py
